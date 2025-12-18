@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But not these files
+!algorithms/Floyd/Floyd.v
+!graph_lib/examples/floyd.v
+
+# And not directories leading to them (git needs to traverse directories)
+!algorithms/
+!algorithms/Floyd/
+!graph_lib/
+!graph_lib/examples/
